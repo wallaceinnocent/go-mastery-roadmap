@@ -1,8 +1,10 @@
-package main
+package functions
 
 import "fmt"
 
-func main() {
+var LineSeparator = "--------------------------*--------------------------"
+
+func HelloWorld() {
 	greeting := "Hello world"
 
 	var greeting2 string
@@ -10,4 +12,5 @@ func main() {
 
 	fmt.Println(greeting)
 	fmt.Println(greeting2)
+
 }
